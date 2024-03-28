@@ -479,7 +479,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "USB-hub-daughterboard.step",
+      "step": "USB-C-splitter.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
