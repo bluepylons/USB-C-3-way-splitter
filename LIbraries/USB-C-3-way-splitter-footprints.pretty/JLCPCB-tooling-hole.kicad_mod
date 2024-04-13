@@ -1,18 +1,88 @@
-(footprint "JLCPCB-tooling-hole" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr smd)
-  (fp_text reference "REF**" (at 0 -2 unlocked) (layer "User.1")
-      (effects (font (size 1 1) (thickness 0.1)))
-    (tstamp 21f4b155-0a2f-4d69-893c-f8b47676dddd)
-  )
-  (fp_text value "JLCPCB-tooling-hole" (at 0 1 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 6a79dfe6-78d8-440d-b7c3-51c375582d54)
-  )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 6d9ce45d-e21d-4449-bdc3-488ae139e05b)
-  )
-  (pad "" np_thru_hole circle (at 0 0) (size 2.286 2.286) (drill 1.152) (layers "F&B.Cu" "*.Mask")
-    (solder_mask_margin 0.148) (clearance 0.148) (tstamp 9bdb4ad6-04b7-43b5-86ee-79ba02a18d26))
+(footprint "JLCPCB-tooling-hole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "User.1")
+		(uuid "21f4b155-0a2f-4d69-893c-f8b47676dddd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "JLCPCB-tooling-hole"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6a79dfe6-78d8-440d-b7c3-51c375582d54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8593857a-b473-4831-9aef-cc14373b1bb7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf8df953-64eb-4dda-b7a6-514a4aae92a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bee96d86-8d65-46b8-a723-811bbed5c96e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6d9ce45d-e21d-4449-bdc3-488ae139e05b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2.286 2.286)
+		(drill 1.152)
+		(layers "*.Mask")
+		(solder_mask_margin 0.148)
+		(clearance 0.148)
+		(uuid "9bdb4ad6-04b7-43b5-86ee-79ba02a18d26")
+	)
 )
