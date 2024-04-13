@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.10"
+      "Version": "8.0.1"
     },
-    "CreationDate": "2024-02-15T01:27:53-05:00"
+    "CreationDate": "2024-04-13T19:43:35-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,8 +14,8 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 31.1,
-      "Y": 33.1
+      "X": 29.1,
+      "Y": 27.1
     },
     "LayerNumber": 2,
     "BoardThickness": 1.2,
@@ -27,7 +27,7 @@
       "PadToPad": 0.15,
       "PadToTrack": 0.15,
       "TrackToTrack": 0.15,
-      "MinLineWidth": 0.25,
+      "MinLineWidth": 0.3,
       "TrackToRegion": 0.2,
       "RegionToRegion": 0.2
     }
