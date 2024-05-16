@@ -1,6 +1,6 @@
 # USB-C-3-way-splitter
 
-Work in progress. As of May 4th, 2024, The second revision has been prototyped, and the splitter functionality works. It needs some thermal verifiaction to ensure that temperatures on the SiP32509 high-side switch are acceptable when the full 3A are being drawn.
+Work in progress. As of May 4th, 2024, The second revision has been prototyped, and the splitter functionality works. It needs some thermal verifiaction to ensure that temperatures on the SiP32509 high-side switch are acceptable when the full 3A are being drawn. A 3rd revision with ESD protection is being prototyped.
 
 This is a splitter board (for making a cable splitter) for turning a 5V 3A-cabale USB-C power source to 3 5V 1A USB sources. This is for using a single-port USB PD charger to charge multiple 5V USB-C devices at once. Files are done in KiCAD 8, and manufacturing files for JLCPCB are provided. 
 
