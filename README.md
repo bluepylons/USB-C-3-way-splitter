@@ -5,7 +5,7 @@ Build and use this at your own  risk.
 
 This is a USB-C splitter that turns a 5V 3A-capable USB-C power source to 3 5V 1A USB sources. This is for using a single-port USB PD charger to charge multiple 5V USB-C devices at once. Files are done in KiCAD 8, and manufacturing files for JLCPCB are provided. An enclosure design is included.
 
-This is a work in progress. As of May 30th, 2024, The second revision has been prototyped, and the splitter functionality works. It needs some thermal verifiaction to ensure that temperatures on the SiP32509 high-side switch are acceptable when the full 3A are being drawn. A 3rd PCB revision with ESD protection(in the V3 folder) has its design done, but has not yet been prototyped. 
+As of May 30th, 2024, The second revision has been prototyped, and the splitter functionality works. A 3rd PCB revision with ESD protection(in the V3 folder) has its design done, but has not yet been prototyped. 
 
 With the widespread prevalance of USB-C, I can now travel with a single compact 45W USB-C GaN charger and  cable, and charge all my devices (phone, laptop, camera, flashlight, power bank, headphones, etc.). However, having a single cable and single charger is often limiting when I need to charge multiple devices (especially overnight), and many USB-C devices only need 5V and not many watts. This splitter board is for charging those devices simultaneously with a single charger, without needing a bulkier multi-port charger and multiple cables.
 
