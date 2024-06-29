@@ -1,17 +1,18 @@
 # USB-C-3-way-splitter
 
 ![picture](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Graphics/DSC_1433.JPG?raw=true)
+
 Build and use this at your own  risk.
 
-This is a USB-C splitter that turns a 5V 3A-capable USB-C power source to 3 5V 1A USB sources. This is for using a single-port USB PD charger to charge multiple 5V USB-C devices at once. Files are done in KiCAD 8, and manufacturing files for JLCPCB are provided. An enclosure design is included.
+This is a USB-C splitter that turns a 5V 3A-capable USB-C power source to 3 5V 1A USB sources. This is for using a single-port USB-C PD charger to charge multiple 5V USB-C devices at once. Files are done in KiCAD 8, and manufacturing files for JLCPCB are provided. An enclosure design is included. 
 
-As of May 30th, 2024, The second revision has been prototyped, and the splitter functionality works. A 3rd PCB revision (in the V3 folder), which adds ESD protection and slightly enlargens the output +5V and GND through-holes, has its design done, but has not yet been prototyped. 
+This design has been prototyped and  tested. 
 
 With the widespread prevalance of USB-C, I can now travel with a single compact 45W USB-C GaN charger and  cable, and charge all my devices (phone, laptop, camera, flashlight, power bank, headphones, etc.). However, having a single cable and single charger is often limiting when I need to charge multiple devices (especially overnight), and many USB-C devices only need 5V and not many watts. This splitter board is for charging those devices simultaneously with a single charger, without needing a bulkier multi-port charger and multiple cables.
 
-The splitter only powers on with USB-C inputs capable of supplying 5V 3A. This is done by monitoring the USB-C CC lines and checking that the signal there is greater than 1.25V. Under the USB-PD standard, if the voltage on the CC pin [is greater than 1.31V](https://hackaday.com/2023/01/04/all-about-usb-c-resistors-and-emarkers/), it indicates the source is capable of supplying 5V 3A. Only then are the outputs powered on (as indicated by the green LED) turning on. Otherwise, the outputs are turned off. The outputs have D+ and D- shorted to indicate that they can supply 1A of current (per the USB Battery Charging standard). 
+The splitter only powers on with USB-C inputs capable of supplying 5V 3A. This is done by monitoring the USB-C CC lines and checking that the signal there is greater than 1.25V. Under the USB-PD standard, if the voltage on the CC pin [is greater than 1.31V](https://hackaday.com/2023/01/04/all-about-usb-c-resistors-and-emarkers/), it indicates the source is capable of supplying 5V 3A. Only then are the outputs powered on (as indicated by the green LED). Otherwise, the outputs are turned off. The outputs have D+ and D- shorted to indicate that they can supply 1A of current (per the USB Battery Charging standard). 
 
-The CC line voltage checking is done by a pair of comparators that monitor each of the 2 CC lines (as the USB-C input cable can be plugged in either way). The CC line voltage are compared against a 1.25V reference voltage (provided by an ST TS4061AICT-1.25 shunt reference). The output of the comparators are fed to the ENABLE input on an SiP32509 high-side switch that turns the outputs on and off. The inputs are over-current protected by a 3A resettable fuse. There is currently no ESD protection on the current PCB design, though it is added on the V3 design. 
+The CC line voltage checking is done by a pair of comparators that monitor each of the 2 CC lines (as the USB-C input cable can be plugged in either way). The CC line voltage are compared against a 1.25V reference voltage (provided by an ST TS4061AICT-1.25 shunt reference). The output of the comparators are fed to the ENABLE input on an SiP32509 high-side switch that turns the outputs on and off. The input is over-current protected by a 3A resettable fuse. 
 
 Note that the output cables need 56K pull-up resistors between output CC and 5V. USB-A to USB-C cables are required to include this resistor, so using the USB-C end from a cut-up USB-A to C cable is recommended for the output cables. 
 
