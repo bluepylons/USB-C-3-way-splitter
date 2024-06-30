@@ -34,8 +34,8 @@ A 3D-printed enclosure design is supplied in the Enclosure folder. The enclosure
 | Description                                                                                                                                                                                                                                           | Quantity  | Notes | 
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | - |
 | [PCB](https://github.com/bluepylons/USB-C-3-way-splitter/tree/main/Manufacturing%20files)                                                                                                                                                             | 1         | See "Ordering the PCB" section below  | 
-| [Upper enclosure](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Enclosure/Upper-enclosure.3mf)                                                                                                                                         | 1         | 3D-printed  |
-| Lower enclosure ([thermal pad](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Enclosure/Lower-enclosure-thermal-pad.3mf) or [potted](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Enclosure/Lower-enclosure-potted.3mf)) | 1         | 3D-printed. Has 4 embedded M3 nuts, which must be installed while 3D printing | 
+| [Upper enclosure](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Enclosure/Upper-enclosure.3mf)                                                                                                                                         | 1         | FDM 3D-printed  |
+| Lower enclosure ([thermal pad](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Enclosure/Lower-enclosure-thermal-pad.3mf) or [potted](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Enclosure/Lower-enclosure-potted.3mf)) | 1         | FDM 3D-printed. Has 4 embedded M3 nuts, which must be installed while 3D printing | 
 
 The 3D-printed parts were FDM 3D-printed in PETG, though other materials probably work fine here. A translucent or semi-translucent material is recommended so that the indicator LEDs can shine through. 
 
@@ -46,12 +46,12 @@ The 3D-printed parts were FDM 3D-printed in PETG, though other materials probabl
 | ------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- | -------- | --------------------------------------------- |
 | [Ikea Sittbrunn USB-A to USB-C cable](https://www.ikea.com/us/en/p/sittbrunn-usb-a-to-usb-c-light-yellow-80539483/) | Ikea 805.394.83                          | 3        |                                               | 
 | M3 hex nut, DIN 934, zinc-plated steel                                                                              | McMaster-Carr 90591A250                  | 4        | Generic. Not stainless steel to avoid galling |
-| M3x8 flat head screw, DIN 7991 / ISO 10642, hex drive, 18-8 stainless steel                                         | McMaster-Carr 92125A128                  | 4        | Generic.                                      |
+| M3x8 flat head screw, DIN 7991 / ISO 10642, hex drive, 18-8 stainless steel                                         | McMaster-Carr 92125A128                  | 4        | Generic                                       |
 | Adhesive-lined heat-shrink, 3/16" / 4.8mm ID, 3:1 shrink ratio                                                      | Qualtek Qualtek Q5-3X-3/16-01-QB48IN-25  | 3x 25mm  |                                               |
 
-If you are using the thermal pad option ([thermal pad option](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Enclosure/Lower-enclosure-thermal-pad.3mf) for the lower enclosure, you will need 1.5mm thick thermal pads. I used Thermalright Extreme Odyssey 1.5mm pads for the ones I have built, but other 1.5mm thermal pads (e.g. Arctic TP-3) may work. The thermal pad must not be electrically conductive. 
+If you are using the [thermal pad option](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Enclosure/Lower-enclosure-thermal-pad.3mf) for the lower enclosure, you will need 1.5mm thick thermal pads. I used Thermalright Extreme Odyssey 1.5mm pads for the ones I have built, but other 1.5mm thermal pads (e.g. Arctic TP-3) may work. The thermal pad must not be electrically conductive. 
 
-If you are using the [potted option](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Enclosure/Lower-enclosure-potted.3mf) for the lower enclosure, you will need some sort of potting compound that can be injected through a 5mm diameter hole. The ones I built used hot glue. 
+If you are using the [potted option](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Enclosure/Lower-enclosure-potted.3mf) for the lower enclosure, you will need some sort of potting compound that can be injected through a 5mm diameter hole. The ones I built used hot glue. Make sure the potting compound has high enough viscosity to not get into the input USB-C port. 
 
 ## Ordering the PCB
 
@@ -104,16 +104,14 @@ If you are using the thermal pad option for the lower case, you will need scisso
 
 ## Build process 
 
-Work in Progress
-
 1.) Test the PCB by plugging in a 5V 3A-capable USB-C source. When plugged in, both the white and green LEDs should light up. Next, test it with a non-5V 3A capable source (e.g. use a USB-A cable). When plugged in, only the white LED should light up. 
 
 2.) Unplug the PCB. 
 
-3.) Take the Ikea Sittbrunn USB-A to USB-C cable, and cut the USB-C end to slightly longer than the desired length.
+3.) Take the Ikea Sittbrunn USB-A to USB-C cable, and cut the USB-C end to about 20-30mm longer than the desired length.
 ![](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Graphics/Build%20guide/01.JPG?raw=true)
 
-4.) Strip about 20mm off the outer insulation. Check that the inner-insulation is not damaged. The method I found works well is to use a pair of flush cutters to "bite' the insulation parallel to the cable, and then cut the resulting pieces off. 
+4.) Strip about 20mm off the outer insulation. The method I found works well is to use a pair of flush cutters to "bite' the insulation parallel to the cable, and then cut the resulting pieces off. After stripping, check that the insulation for the individual wires are not damaged. 
 
 ![](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Graphics/Build%20guide/02.JPG?raw=true)
 ![](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Graphics/Build%20guide/03.JPG?raw=true)
@@ -128,10 +126,10 @@ Work in Progress
 7.) Apply some flux to the stripped wire.
 ![](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Graphics/Build%20guide/07.JPG?raw=true)
 
-8.) Tin the wire with a little bit of solder. Try to add enough solder here that the strands don't come apart, but not so much that the stranded wires no longer fit in the output holes in the PCB. 
+8.) Tin the wire with a little bit of solder. Try to add enough solder here that the strands don't come apart, but not so much that the stranded wires no longer fit in the output footprint through-holes in the PCB. 
 ![](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Graphics/Build%20guide/08.JPG?raw=true)
 
-9.) Repeat Steps 5 through 8 for the remaining wires. This is best done one wire at a time to prevent the wires from becoming unstranded bumping into each other. 
+9.) Repeat Steps 5 through 8 for the remaining wires. This is best done one wire at a time to prevent the wires from becoming unstranded from bumping into each other. 
 ![](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Graphics/Build%20guide/09.JPG?raw=true)
 
 10.) Cut some pieces of heat-shrink that are 20-30mm long:
@@ -140,9 +138,9 @@ Work in Progress
 11.) Put the heat shrink through the cable.
 ![](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Graphics/Build%20guide/11.JPG?raw=true)
 
-12.) Solder the wires to one of the three output footprints:
+12.) Solder the wires to one of the three output footprints, and trim off any excess using the flush cutters.
 
-The following wire colors correspond to the following pins:
+The following wire colors correspond to the following pins, which are labelled on the underside of the PCB:
 
 | Color | Pin |
 | ----- | --- |
@@ -151,15 +149,16 @@ The following wire colors correspond to the following pins:
 | White | D+  |
 | Red   | +5V |
 
+
 ![](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Graphics/Build%20guide/12.JPG?raw=true)
 ![](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Graphics/Build%20guide/13.JPG?raw=true)
 
-Check that the strands from each wire are not shorted to each other.
+Check that the strands from each wire are not shorted to each other. However, since D+ and D- are shorted to each other on the PCB per the USB Battery Charging standard, it does not matter if those two specific wires are shorted to each other. 
 
-13.) Repeat steps 3-12 for the remaining outputs. **Remember to slip the heatshrink tubing on before soldering**
+13.) Repeat steps 3-12 for the remaining outputs. **Remember to slip the heatshrink tubing on before soldering**. Double check that wires are not shorted to each other. 
 ![](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Graphics/Build%20guide/14.JPG?raw=true)
 
-14.) Plug the PCB into the 5V 3A USB-C source again. Check that the green and the white lights both light up. If not, you may have a short circuit.
+14.) Plug the PCB into the 5V 3A USB-C source again. Check that the green and the white lights both light up. If not, you may have a short circuit somewhere.
 
 15.) Slip the heatshrink tubing down the wires, like so:
 ![](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Graphics/Build%20guide/15.JPG?raw=true)
@@ -180,6 +179,6 @@ Check that the strands from each wire are not shorted to each other.
 
 21.) Test the splitter by plugging it into the 5V 3A source again, and using it to charge various devices (e.g. a phone). Make sure each output works. If not, check your soldering. 
 
-22.) (For the potted variant only) - Inject potting compound into the 5mm hole on the lower enclosure. 
+22.) (For the potted variant only) - Inject potting compound into the 5mm hole on the lower enclosure, and it let it dry/solidfy/cure. 
 
 You are done!
