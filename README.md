@@ -2,7 +2,7 @@
 
 ![picture](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Graphics/Overview.JPG?raw=true)
 
-*Disclaimer* - Build and use this at your own  risk. I am not responsible for anything that arises from use of these files or guide, or for anything that arises from constructing and using this device.
+*Disclaimer* - **Build and use this at your own  risk. I am not responsible for anything that arises from use of these files or guide, or for anything that arises from constructing and using this device.**
 
 This is a USB-C splitter that splits a 5V 3A-capable USB-C power source to 3 5V 1A  sources. This is for using a single-port USB-C PD charger to charge multiple 5V USB-C devices at once. Files are done in KiCAD 8, and manufacturing files for JLCPCB are provided. An enclosure design is included. 
 
