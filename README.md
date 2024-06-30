@@ -1,4 +1,4 @@
-# USB-C 3-way-splitter
+# A USB-C 3-way-splitter for charging multiple 5W devices from a single USB-PD charger
 
 ![picture](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Graphics/Overview.JPG?raw=true)
 ![picture 2](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Graphics/Overview2.JPG?raw=true)
