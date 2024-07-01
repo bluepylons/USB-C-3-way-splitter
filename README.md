@@ -160,7 +160,7 @@ Check that the strands from each wire are not shorted to each other. However, si
 
 14.) Plug the PCB into the 5V 3A USB-C source again. Check that the green and the white lights both light up. If not, you may have a short circuit somewhere.
 
-15.) Slip the heatshrink tubing down the wires, like so:
+15.) Move the heatshrink tubing down the cables, like so:
 ![](https://github.com/bluepylons/USB-C-3-way-splitter/blob/main/Graphics/Build%20guide/15.JPG?raw=true)
 
 17.) Using a heatgun, shrink the heatshrink:
@@ -179,6 +179,6 @@ Check that the strands from each wire are not shorted to each other. However, si
 
 21.) Test the splitter by plugging it into the 5V 3A source again, and using it to charge various devices (e.g. a phone). Make sure each output works. If not, check your soldering. 
 
-22.) (For the potted variant only) - Inject potting compound into the 5mm hole on the lower enclosure, and it let it dry/solidfy/cure. 
+22.) (For the potted variant only) - Inject potting compound into the 5mm hole on the lower enclosure, and it let it dry/solidify/cure. 
 
 You are done!
