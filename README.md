@@ -5,6 +5,8 @@
 
 *Disclaimer* - **Build and/or use this at your own  risk. I am not responsible for anything that arises from use of these files or documents, or for anything that arises from constructing and/or using this device.**
 
+*Disclaimer 2* - the USB battery charging standard actually provides [for a maximum of 1.5A](https://imgur.com/07zPKKw), not 1A. The polyfuse used (Littelfuse 1812L300MR) does not reliably trip below 5A, so this splitter may result in 4.5A maximum being drawn from the source. A vVersion 4 (which uses an 3A electronic fuse in place of  the high-side switch to reliabily cut off current at around 3A is being developed to address this issue).
+
 This is a USB-C splitter that splits a 5V 3A-capable USB-C power source to 3 5V 1A  sources. This is for using a single-port USB-C PD charger to charge multiple 5V USB-C devices at once. Files are done in KiCAD 8, and manufacturing files for JLCPCB are provided. An enclosure design is included (which was designed in Autodesk Fusion 360) - .3mf, .step, and .f3z file are provided. 
 
 This design has been prototyped and  tested. 
@@ -15,7 +17,7 @@ With the widespread adoption of USB-C for device charging, I can now travel with
 ## Operation 
 For safety, the splitter outputs only power on when the splitter is connected to a charger that indicates it can actually supply 3A, and includes a resettable fuse for overcurrent protection. The white LED lights up when it is connected to a powered USB-C cable. The green LED lights up if the power source is capable of supplying 5V 3A, and indicates the outputs have been powered on.
 
-The outputs have D+ and D- shorted to indicate that they can supply 1A of current (per the USB Battery Charging standard). 
+The outputs have D+ and D- shorted to indicate that they can supply ~~~1A~~~ 1.5A of current (per the USB Battery Charging standard). 
 
 ## Design
 The splitter only powers on with USB-C inputs capable of supplying 5V 3A. This is done by monitoring the USB-C CC lines and checking that the signal there is greater than 1.25V. Under the USB-PD standard, if the voltage on the CC pin [is greater than 1.31V](https://hackaday.com/2023/01/04/all-about-usb-c-resistors-and-emarkers/), it indicates the source is capable of supplying 5V 3A. Only then are the outputs powered on (as indicated by the green LED). Otherwise, the outputs are turned off. 
