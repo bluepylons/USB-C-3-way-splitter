@@ -2112,6 +2112,168 @@
 				)
 			)
 		)
+		(symbol "Diode:1N4148W"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148W"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148W_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148W_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -2904,6 +3066,301 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_FET:2N7002"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N7002"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel Switching MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N7002_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "2N7002_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3844,6 +4301,12 @@
 		)
 	)
 	(junction
+		(at 158.75 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d44d269-ae16-4444-9855-16c5a2699dec")
+	)
+	(junction
 		(at 62.23 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3856,10 +4319,22 @@
 		(uuid "3db2b91c-ad77-495c-b2ec-532dbe7bbdbc")
 	)
 	(junction
+		(at 180.34 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e2a2e03-4b8c-498d-a436-3845e6221cd6")
+	)
+	(junction
 		(at 109.22 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83968d9e-5dd3-4e0c-889b-0f2c9d439026")
+	)
+	(junction
+		(at 158.75 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e78a846-387c-457d-a90b-d2b2eee19d83")
 	)
 	(junction
 		(at 180.34 43.18)
@@ -4026,6 +4501,16 @@
 			(type default)
 		)
 		(uuid "2a6abf7b-983d-42e5-94ac-7da5a38c9e5d")
+	)
+	(wire
+		(pts
+			(xy 158.75 130.81) (xy 167.64 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b90dcf7-a347-45b1-9d14-2a034d1afe0f")
 	)
 	(polyline
 		(pts
@@ -4227,6 +4712,16 @@
 		)
 		(uuid "6aa591e6-e0d0-46f2-8efe-caa1b61c417c")
 	)
+	(wire
+		(pts
+			(xy 158.75 153.67) (xy 167.64 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b6bb4fa-0ff4-4cae-9e2f-c21065d93d1d")
+	)
 	(polyline
 		(pts
 			(xy 129.54 62.23) (xy 116.84 62.23)
@@ -4256,6 +4751,16 @@
 			(type default)
 		)
 		(uuid "6d9e43fb-b0d7-4348-9e8a-dd125a1a0975")
+	)
+	(wire
+		(pts
+			(xy 157.48 153.67) (xy 158.75 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de8c436-e061-406c-9ea1-6da8573d559a")
 	)
 	(wire
 		(pts
@@ -4326,6 +4831,16 @@
 			(type default)
 		)
 		(uuid "75163b09-66fc-4979-85af-8618b915f33b")
+	)
+	(wire
+		(pts
+			(xy 180.34 130.81) (xy 180.34 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a26e18-2e55-4528-9433-7383a3f359da")
 	)
 	(wire
 		(pts
@@ -4406,6 +4921,16 @@
 			(type default)
 		)
 		(uuid "81054ded-9d40-4f24-bd73-7c8a93db6eae")
+	)
+	(wire
+		(pts
+			(xy 180.34 140.97) (xy 180.34 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "877fed21-0d44-4d83-b0eb-f6c61bf7bd7b")
 	)
 	(wire
 		(pts
@@ -4517,6 +5042,16 @@
 		)
 		(uuid "a93f65fa-e143-4404-9fbd-dd88959267a4")
 	)
+	(wire
+		(pts
+			(xy 158.75 151.13) (xy 158.75 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab080564-b363-4c45-8a9d-978c03ce7494")
+	)
 	(polyline
 		(pts
 			(xy 223.52 109.22) (xy 223.52 142.24)
@@ -4539,6 +5074,26 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 130.81) (xy 158.75 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b32582e4-aa49-48f4-8026-e66838731686")
+	)
+	(wire
+		(pts
+			(xy 158.75 125.73) (xy 158.75 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b40037ac-a6a1-4b1c-b1fa-4d4e2e7062b6")
+	)
+	(wire
+		(pts
 			(xy 41.91 36.83) (xy 43.18 36.83)
 		)
 		(stroke
@@ -4546,6 +5101,16 @@
 			(type solid)
 		)
 		(uuid "b92194b4-9454-4b9e-a5d6-76428997b8dc")
+	)
+	(wire
+		(pts
+			(xy 180.34 140.97) (xy 181.61 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c210bd9c-90c6-40a6-b5ca-27ba0dbb7452")
 	)
 	(polyline
 		(pts
@@ -4679,6 +5244,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 130.81) (xy 180.34 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb592dd5-de77-44bd-afd1-55d27d4c838c")
+	)
+	(wire
+		(pts
 			(xy 237.49 62.23) (xy 237.49 64.77)
 		)
 		(stroke
@@ -4716,6 +5291,16 @@
 			(type solid)
 		)
 		(uuid "f542bd91-2bf3-4a24-9209-b442311050ff")
+	)
+	(wire
+		(pts
+			(xy 175.26 153.67) (xy 180.34 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7be8704-082b-42d1-a960-2d1a9a74ca38")
 	)
 	(polyline
 		(pts
@@ -4769,6 +5354,16 @@
 			(justify left bottom)
 		)
 		(uuid "44e83939-5d18-41e3-9c09-3058e300b769")
+	)
+	(text "NIS6452MT1TWG"
+		(exclude_from_sim no)
+		(at 147.828 55.626 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4607333e-d2b2-4759-9560-2d7c6bf7029b")
 	)
 	(text "CC line monitoring to stay within USB spec"
 		(exclude_from_sim no)
@@ -4890,6 +5485,28 @@
 			)
 		)
 	)
+	(global_label "EN-OPEN-COL"
+		(shape bidirectional)
+		(at 189.23 135.89 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f8aefdd-2897-4c59-b661-5f495efae58f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.23 117.4608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CC1"
 		(shape input)
 		(at 81.28 46.99 180)
@@ -4908,28 +5525,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EN-OPEN-COL"
-		(shape bidirectional)
-		(at 157.48 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "32223165-4131-4ec4-8edb-3b3ddc0149ef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.9092 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5040,28 +5635,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EN-OPEN-COL"
-		(shape bidirectional)
-		(at 157.48 153.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "765accee-50b1-47da-80c5-5e18c437db82")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.9092 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5464,6 +6037,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 219.71 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ad848bf-1413-47ba-aaec-237cebaccf12")
+		(property "Reference" "#PWR041"
+			(at 219.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 220.091 48.9458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f473c14-73d3-4ec6-b915-7c789ef4664e")
+		)
+		(instances
+			(project "USB-C-3-way-splitter-V4"
+				(path "/49b03f2e-4a93-4c4e-8d95-13775b5bcebc"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 93.98 57.15 0)
 		(unit 1)
@@ -5675,6 +6313,91 @@
 			(project "USB-C-3-way-splitter"
 				(path "/49b03f2e-4a93-4c4e-8d95-13775b5bcebc"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 171.45 153.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0de0e4ae-784d-430d-9a3f-1dcc70a98a6e")
+		(property "Reference" "D5"
+			(at 184.15 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 171.45 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 171.45 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 171.45 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 171.45 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 171.45 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 171.45 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ebba2947-2e6e-4991-8b2b-20240c160410")
+		)
+		(pin "1"
+			(uuid "e6db008a-d324-4951-a034-d681b1f8791c")
+		)
+		(instances
+			(project "USB-C-3-way-splitter-V4"
+				(path "/49b03f2e-4a93-4c4e-8d95-13775b5bcebc"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -5894,6 +6617,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 158.75 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19f59cf6-f6cd-4730-8373-589676e8876a")
+		(property "Reference" "R9"
+			(at 161.29 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 161.29 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 156.972 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3a33b9f8-2a9b-45e2-8c23-47383e4e2656")
+		)
+		(pin "1"
+			(uuid "27a3b903-6fdc-4647-a119-8185fc080c33")
+		)
+		(instances
+			(project "USB-C-3-way-splitter-V4"
+				(path "/49b03f2e-4a93-4c4e-8d95-13775b5bcebc"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 26.67 67.31 0)
 		(unit 1)
@@ -5953,6 +6746,76 @@
 			(project "USB-C-3-way-splitter"
 				(path "/49b03f2e-4a93-4c4e-8d95-13775b5bcebc"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2455fdd8-53f4-4daf-af90-5ee134676ec0")
+		(property "Reference" "R8"
+			(at 161.29 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 161.29 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 156.972 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "723a2e41-b029-4ca6-b811-2c4329b4dcef")
+		)
+		(pin "1"
+			(uuid "00c463f4-8032-40f1-b178-86488ed57c90")
+		)
+		(instances
+			(project "USB-C-3-way-splitter-V4"
+				(path "/49b03f2e-4a93-4c4e-8d95-13775b5bcebc"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6094,6 +6957,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 158.75 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "305eba15-e798-4d5b-a000-339d0c8dad15")
+		(property "Reference" "#PWR037"
+			(at 158.75 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 158.75 114.3 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce0b83d5-2924-437b-b8a9-a4fb01e68cf1")
+		)
+		(instances
+			(project "USB-C-3-way-splitter-V4"
+				(path "/49b03f2e-4a93-4c4e-8d95-13775b5bcebc"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V2")
 		(at 242.57 135.89 0)
 		(unit 1)
@@ -6161,7 +7089,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 194.31 133.35 0)
+		(at 195.58 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6169,7 +7097,7 @@
 		(dnp no)
 		(uuid "38f3df42-16b5-49c9-9f0c-68ff56b1e98b")
 		(property "Reference" "#PWR033"
-			(at 194.31 137.16 0)
+			(at 195.58 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6178,7 +7106,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 194.31 129.54 0)
+			(at 195.58 110.49 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6186,7 +7114,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 133.35 0)
+			(at 195.58 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6195,7 +7123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 133.35 0)
+			(at 195.58 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6204,7 +7132,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 133.35 0)
+			(at 195.58 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6415,6 +7343,82 @@
 			(project "USB-C-3-way-splitter"
 				(path "/49b03f2e-4a93-4c4e-8d95-13775b5bcebc"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 186.69 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4669dfd4-7b82-433b-a7be-2181a2f56ca9")
+		(property "Reference" "Q1"
+			(at 193.04 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 193.04 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 191.77 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 191.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 186.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "698aa307-195e-44a0-aea4-8e7a5da100ef")
+		)
+		(pin "2"
+			(uuid "d6983b82-15ed-41ea-bdce-2b62895f567f")
+		)
+		(pin "1"
+			(uuid "34cb0422-f4a8-4e8f-af80-361a1c919ae3")
+		)
+		(instances
+			(project ""
+				(path "/49b03f2e-4a93-4c4e-8d95-13775b5bcebc"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -7086,7 +8090,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 140.97 0)
+		(at 195.58 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7094,7 +8098,7 @@
 		(dnp no)
 		(uuid "619ac1bb-5ec5-4921-a364-eba83a351dc3")
 		(property "Reference" "#PWR035"
-			(at 194.31 147.32 0)
+			(at 195.58 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7103,7 +8107,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 144.145 0)
+			(at 195.58 125.095 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7111,7 +8115,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 140.97 0)
+			(at 195.58 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7120,7 +8124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 140.97 0)
+			(at 195.58 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7129,7 +8133,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 140.97 0)
+			(at 195.58 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7511,6 +8515,157 @@
 			(project "USB-C-3-way-splitter"
 				(path "/49b03f2e-4a93-4c4e-8d95-13775b5bcebc"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 189.23 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "797a4026-3af2-4f2f-8d2a-d1a2d5d698a3")
+		(property "Reference" "#PWR038"
+			(at 189.23 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 149.225 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a4009a4-2b50-4b23-b638-0c6660246aac")
+		)
+		(instances
+			(project "USB-C-3-way-splitter-V4"
+				(path "/49b03f2e-4a93-4c4e-8d95-13775b5bcebc"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 171.45 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d5d831e-7768-4d86-98f6-e81a620a3867")
+		(property "Reference" "D4"
+			(at 171.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 171.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 171.45 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 171.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 171.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 171.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 171.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7f7899ac-2687-4098-9dba-2b875f6b92af")
+		)
+		(pin "1"
+			(uuid "b43812ec-70ea-46c1-9439-71868e5f9df8")
+		)
+		(instances
+			(project "USB-C-3-way-splitter-V4"
+				(path "/49b03f2e-4a93-4c4e-8d95-13775b5bcebc"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -8003,6 +9158,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 219.71 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9403acba-64ad-42ca-a75a-646cc6100902")
+		(property "Reference" "#PWR039"
+			(at 219.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 64.135 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f74829b2-3548-456f-8351-e89094cf7c19")
+		)
+		(instances
+			(project "USB-C-3-way-splitter-V4"
+				(path "/49b03f2e-4a93-4c4e-8d95-13775b5bcebc"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 201.93 45.72 0)
 		(unit 1)
@@ -8439,7 +9659,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 194.31 137.16 0)
+		(at 195.58 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8448,7 +9668,7 @@
 		(fields_autoplaced yes)
 		(uuid "a975ea76-73bb-45fe-ac1f-a8650c9cd0c1")
 		(property "Reference" "C3"
-			(at 198.12 135.89 0)
+			(at 199.39 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8457,7 +9677,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 198.12 138.43 0)
+			(at 199.39 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8466,7 +9686,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 195.2752 140.97 0)
+			(at 196.5452 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8475,7 +9695,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 137.16 0)
+			(at 195.58 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8484,7 +9704,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 137.16 0)
+			(at 195.58 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10161,6 +11381,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 158.75 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5f4b016-20b5-41a3-824f-9f0b7c3320eb")
+		(property "Reference" "#PWR028"
+			(at 158.75 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 158.75 139.7 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5adedf84-50bb-4d34-9cc6-7075eb2fe418")
+		)
+		(instances
+			(project "USB-C-3-way-splitter-V4"
+				(path "/49b03f2e-4a93-4c4e-8d95-13775b5bcebc"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 109.22 139.7 0)
 		(unit 1)
@@ -10285,6 +11570,76 @@
 			(project "USB-C-3-way-splitter-V4"
 				(path "/49b03f2e-4a93-4c4e-8d95-13775b5bcebc"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 219.71 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff446bd9-fde0-4d8f-8718-bfab0c659516")
+		(property "Reference" "C2"
+			(at 223.52 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 223.52 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 220.6752 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e930bb76-612b-445e-95f2-b8e40206854e")
+		)
+		(pin "2"
+			(uuid "265275a8-7487-432b-b9e7-83653cb5e6ea")
+		)
+		(instances
+			(project "USB-C-3-way-splitter-V4"
+				(path "/49b03f2e-4a93-4c4e-8d95-13775b5bcebc"
+					(reference "C2")
 					(unit 1)
 				)
 			)

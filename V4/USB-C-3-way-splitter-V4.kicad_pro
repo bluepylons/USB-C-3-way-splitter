@@ -519,8 +519,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "V3 manufacturing files/Gerbers/",
-      "pos_files": "V3 manufacturing files/",
+      "plot": "Gerbers/",
+      "pos_files": "JLCPCB manufacturing files/",
       "specctra_dsn": "",
       "step": "USB-C-splitter.step",
       "svg": "",
@@ -530,6 +530,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
