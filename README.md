@@ -5,7 +5,7 @@
 
 *Disclaimer* - **Build and/or use this at your own  risk. I am not responsible for anything that arises from use of these files or documents, or for anything that arises from constructing and/or using this device.**
 
-*Disclaimer 2* - the USB battery charging standard actually provides [for a maximum of 1.5A](https://imgur.com/07zPKKw), not 1A as originally believed. The polyfuse used (Littelfuse 1812L300MR) does not reliably trip below 5A, so this splitter may result in 4.5A maximum being drawn from the source. A planned Version 4 (which uses an 3A electronic fuse in place of the high-side switch to reliabily cut off current at around 3A) is being developed to address this issue.
+*Disclaimer 2* - the USB battery charging standard actually provides [for a maximum of 1.5A](https://imgur.com/07zPKKw), not 1A as originally believed. The polyfuse used (Littelfuse 1812L300MR) does not reliably trip below 5A, so this splitter may result in 4.5A maximum being drawn from the source. A planned Version 4 (which uses an 3A electronic fuse in place of the high-side switch to reliabily cut off current at around 3A) is being developed to address this issue. UPDATE August 19, 2024 - Version 4 does not work as the ENABLE pin logic for the electronic fuse was inverted. Version 5 is planned to fix this. 
 
 This is a USB-C splitter that splits a 5V 3A-capable USB-C power source to 3 5V 1A  sources. This is for using a single-port USB-C PD charger to charge multiple 5V USB-C devices at once. Files are done in KiCAD 8, and manufacturing files for JLCPCB are provided. An enclosure design is included (which was designed in Autodesk Fusion 360) - .3mf, .step, and .f3z file are provided. 
 
