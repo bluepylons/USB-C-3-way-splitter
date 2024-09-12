@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "USB-C-3-way-splitter-footprints")(type "KiCad")(uri "C:/Users/James/Documents/GitHub/USB-C-3-way-splitter/LIbraries/USB-C-3-way-splitter-footprints.pretty")(options "")(descr ""))
+)
